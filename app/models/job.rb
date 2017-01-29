@@ -11,9 +11,7 @@ class Job < ApplicationRecord
       self.save
     end
 
-      def self.search(search)
-      where("title LIKE ?", "%#{search}%").or(where("description LIKE ?", "%#{search}%"))
-   end
+
 
 
   validates :title, presence: true
@@ -28,4 +26,8 @@ class Job < ApplicationRecord
 
    scope :recent, -> { order('created_at DESC') }
    has_many :resumes
+   def self.search(search)
+   where("title LIKE ?", "%#{search}%").or(where("description LIKE ?", "%#{search}%"))
+   end
+
    end
