@@ -61,6 +61,6 @@
 #   }
 
 
-   set :branch, "master"
+   set :branch, "step11"
 
 server "116.196.69.140", user: "deploy", roles: %w{app db web}, my_property: :my_value
