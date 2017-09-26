@@ -4,7 +4,7 @@ sh "ssh-add"
 lock "3.9.1"
 
 set :application, "job-listing"
-set :repo_url, "https://github.com/tangvwin/job-listing/tree/step13"
+set :repo_url, "https://github.com/tangvwin/job-listing/"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
