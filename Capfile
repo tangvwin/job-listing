@@ -18,6 +18,9 @@ install_plugin Capistrano::SCM::Git
 require 'capistrano/rails'
 require 'capistrano/passenger'
 
+require 'capistrano/rails'
+require 'capistrano/passenger'
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
