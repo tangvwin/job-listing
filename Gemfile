@@ -35,7 +35,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
-gem "sprockets", '3.6.3'
+gem "sprockets"
 
 
 group :development, :test do

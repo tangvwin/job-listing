@@ -220,7 +220,7 @@ DEPENDENCIES
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
   simple_form
-  sprockets (= 3.6.3)
+  sprockets
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
